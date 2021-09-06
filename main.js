@@ -13,7 +13,7 @@ xhr.addEventListener("readystatechange", function() {
         document.getElementById("name").innerHTML = data.name;
         document.getElementById("bio").innerHTML = data.bio;
         document.getElementById("github").href = data.html_url;
-        if (data.twitter_username == "itsabdulkader") {
+        if (data.twitter_username == "null") {
             document.getElementById("twitter").style.display = "none";
         } else {
             document.getElementById("space").innerHTML = "&nbsp";
