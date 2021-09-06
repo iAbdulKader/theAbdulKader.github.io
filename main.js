@@ -1,8 +1,8 @@
 //Replace With Your Own Github Username
-const Github_Username = "cachecleanerjeet";
+const Github_Username = "theAbdulKader";
 
 //Replace With Your Own Email ID
-const Email_Id = "me@thetuhin.com";
+const Email_Id = "contact@abdulkader.gq";
 
 var xhr = new XMLHttpRequest();
 xhr.addEventListener("readystatechange", function() {
@@ -13,7 +13,7 @@ xhr.addEventListener("readystatechange", function() {
         document.getElementById("name").innerHTML = data.name;
         document.getElementById("bio").innerHTML = data.bio;
         document.getElementById("github").href = data.html_url;
-        if (data.twitter_username == "null") {
+        if (data.twitter_username == "itsabdulkader") {
             document.getElementById("twitter").style.display = "none";
         } else {
             document.getElementById("space").innerHTML = "&nbsp";
